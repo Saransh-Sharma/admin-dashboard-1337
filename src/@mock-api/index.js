@@ -1,3 +1,5 @@
+import './api/dashboards/analytics-api';
+import './api/ui/icons-api';
 import './api/auth-api';
 import './api/notifications-api';
 import history from '@history';

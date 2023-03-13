@@ -4,7 +4,7 @@ import i18n from '../../i18n';
 const settingsConfig = {
   layout: {
     style: 'layout1', // layout1 layout2 layout3
-    config: {}, // checkout default layout configs at app/theme-layouts for example  app/theme-layouts/layout1/Layout1Config.js
+    config: {}, 
   },
   customScrollbars: true,
   direction: i18n.dir(i18n.options.lng) || 'ltr', // rtl, ltr

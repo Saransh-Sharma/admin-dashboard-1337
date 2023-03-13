@@ -13,7 +13,7 @@ const navigationConfig = [
     title: 'Release Home',
     type: 'item',
     icon: 'heroicons-outline:star',
-    url: 'example',
+    url: 'dashboards/analytics',
   },
   {
     id: 'example-component2',
