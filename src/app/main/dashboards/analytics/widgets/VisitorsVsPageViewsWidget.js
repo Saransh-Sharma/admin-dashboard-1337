@@ -17,7 +17,7 @@ function VisitorsVsPageViewsWidget(props) {
   const chartOptions = {
     chart: {
       animations: {
-        enabled: false,
+        enabled: true,
       },
       fontFamily: 'inherit',
       foreColor: 'inherit',
@@ -35,7 +35,7 @@ function VisitorsVsPageViewsWidget(props) {
       enabled: false,
     },
     fill: {
-      colors: [theme.palette.primary.dark, theme.palette.primary.light],
+      colors: [theme.palette.primary.dark, theme.palette.primary.light, theme.palette.primary.main],
       opacity: 0.5,
     },
     grid: {
