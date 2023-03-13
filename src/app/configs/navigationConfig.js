@@ -20,7 +20,7 @@ const navigationConfig = [
     title: 'Crashes',
     type: 'item',
     icon: 'heroicons-outline:star',
-    url: 'crashes',
+    url: 'dashboards/project',
   },
   {
     id: 'example-component3',
