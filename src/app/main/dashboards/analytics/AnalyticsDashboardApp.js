@@ -53,6 +53,10 @@ function AnalyticsDashboardApp() {
                   initial="hidden"
                   animate="show"
                 >
+                 <motion.div variants={item} className="sm:col-span-2 lg:col-span-3">
+                    <VisitorsVsPageViewsWidget />
+                  </motion.div>
+
                   <motion.div variants={item} className="sm:col-span-2 lg:col-span-3">
                     <VisitorsOverviewWidget />
                   </motion.div>
@@ -75,10 +79,10 @@ function AnalyticsDashboardApp() {
 
                   <div className="w-full mt-16 sm:col-span-3">
                     <Typography className="text-2xl font-semibold tracking-tight leading-6">
-                      Your Audience
+                      Issues
                     </Typography>
                     <Typography className="font-medium tracking-tight" color="text.secondary">
-                      Demographic properties of your users
+                      List of all Crashes, Non-Fatals, and ANRs
                     </Typography>
                   </div>
 
