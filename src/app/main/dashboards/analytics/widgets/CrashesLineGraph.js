@@ -8,7 +8,7 @@ import { Tooltip } from '@mui/material';
 import ReactApexChart from 'react-apexcharts';
 import { selectWidgets } from '../store/widgetsSlice';
 
-function VisitorsVsPageViewsWidget(props) {
+function CrashesLineGraph(props) {
   const theme = useTheme();
   const widgets = useSelector(selectWidgets);
   const { series, averageRatio, predictedRatio, overallScore, labels } =
@@ -176,4 +176,4 @@ function VisitorsVsPageViewsWidget(props) {
   );
 }
 
-export default VisitorsVsPageViewsWidget;
+export default CrashesLineGraph;

@@ -12,7 +12,7 @@ import VisitorsOverviewWidget from './widgets/VisitorsOverviewWidget';
 import ConversionsWidget from './widgets/ConversionsWidget';
 import ImpressionsWidget from './widgets/ImpressionsWidget';
 import VisitsWidget from './widgets/VisitsWidget';
-import VisitorsVsPageViewsWidget from './widgets/VisitorsVsPageViewsWidget';
+import CrashesLineGraph from './widgets/CrashesLineGraph';
 import NewVsReturningWidget from './widgets/NewVsReturningWidget';
 import AgeWidget from './widgets/AgeWidget';
 import LanguageWidget from './widgets/LanguageWidget';
@@ -54,7 +54,7 @@ function AnalyticsDashboardApp() {
                   animate="show"
                 >
                  <motion.div variants={item} className="sm:col-span-2 lg:col-span-3">
-                    <VisitorsVsPageViewsWidget />
+                    <CrashesLineGraph />
                   </motion.div>
 
                   <motion.div variants={item} className="sm:col-span-2 lg:col-span-3">
@@ -74,7 +74,7 @@ function AnalyticsDashboardApp() {
                   </motion.div>
 
                   <motion.div variants={item} className="sm:col-span-2 lg:col-span-3">
-                    <VisitorsVsPageViewsWidget />
+                    <CrashesLineGraph />
                   </motion.div>
 
                   <div className="w-full mt-16 sm:col-span-3">
