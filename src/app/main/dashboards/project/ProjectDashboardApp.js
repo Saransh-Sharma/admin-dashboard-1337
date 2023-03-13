@@ -11,7 +11,6 @@ import ProjectDashboardAppHeader from './ProjectDashboardAppHeader';
 import reducer from './store';
 import { getWidgets, selectWidgets } from './store/widgetsSlice';
 import HomeTab from './tabs/home/HomeTab';
-import TeamTab from './tabs/team/TeamTab';
 import BudgetTab from './tabs/budget/BudgetTab';
 
 const Root = styled(FusePageSimple)(({ theme }) => ({
@@ -72,15 +71,9 @@ function ProjectDashboardApp(props) {
               disableRipple
               label="Budget"
             />
-            <Tab
-              className="text-14 font-semibold min-h-40 min-w-64 mx-4 px-12"
-              disableRipple
-              label="Team"
-            />
           </Tabs>
           {tabValue === 0 && <HomeTab />}
           {tabValue === 1 && <BudgetTab />}
-          {tabValue === 2 && <TeamTab />}
         </div>
       }
     />
