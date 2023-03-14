@@ -27036,7 +27036,7 @@
             ],
             "series": [
               {
-                "name": "Conversions",
+                "name": "Crashes",
                 "data": [
                   4412,
                   4345,
@@ -27058,7 +27058,7 @@
             ],
             "series": [
               {
-                "name": "Impressions",
+                "name": "Non-Fatals",
                 "data": [
                   11577,
                   11441,
@@ -27078,7 +27078,7 @@
             ],
             "series": [
               {
-                "name": "Visits",
+                "name": "ANRs",
                 "data": [
                   15521,
                   15519,

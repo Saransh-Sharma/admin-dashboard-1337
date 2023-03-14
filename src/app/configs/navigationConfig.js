@@ -16,6 +16,13 @@ const navigationConfig = [
     url: 'dashboards/analytics',
   },
   {
+    id: 'example-component22',
+    title: 'nu Crashes',
+    type: 'item',
+    icon: 'material-outline:new_releases',
+    url: 'crashes',
+  },
+  {
     id: 'example-component2',
     title: 'Crashes',
     type: 'item',
