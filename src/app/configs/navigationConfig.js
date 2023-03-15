@@ -33,7 +33,7 @@ const navigationConfig = [
     id: 'example-component3',
     title: 'Performance',
     type: 'item',
-    icon: 'material-outline:query_stats',
+    icon: 'material-outline:speed',
     url: 'performance',
   },
   {

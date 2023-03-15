@@ -13,6 +13,7 @@ import CrashesSmallWidget from '../dashWidgets/CrashesSmallWidget';
 import NonFatalSmall from '../dashWidgets/NonFatalSmallWidget';
 import ANRsSmallWidget from '../dashWidgets/ANRsSmallWidget';
 import CrashesLineGraph from '../dashWidgets/CrashesLineGraph';
+// import RecentTransactionsWidget from '../dashWidgets/RecentTransactionsWidget';
 
 
 function CrashesDashboardApp() {
@@ -77,6 +78,11 @@ function CrashesDashboardApp() {
                     <Typography className="font-medium tracking-tight" color="text.secondary">
                       List of all Crashes, Non-Fatals, and ANRs
                     </Typography>
+
+                    {/* <motion.div variants={item} className="xl:col-span-2 flex flex-col flex-auto">
+                      <RecentTransactionsWidget />
+                    </motion.div> */}
+
                   </div>
 
                 </motion.div>
